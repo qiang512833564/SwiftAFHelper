@@ -1,0 +1,6 @@
+framework module Pods_SwiftAFHelperTests {
+  umbrella header "Pods-SwiftAFHelperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

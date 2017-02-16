@@ -12,14 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        //测试请求
+        AFNetworkingHelper.shareInstance.request(.GET, urlString: "http://httpbin.org/get", parameters: ["name":"umr","age":18]) { (result, error) in
+            if error != nil {
+                print(error)
+                return
+            }
+            print(result)
+        }
+        
     }
-
 
 }
 

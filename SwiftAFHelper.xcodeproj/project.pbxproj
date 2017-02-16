@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E2C84EF76FA226EE923574 /* Pods_SwiftAFHelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A397A45518323236DD3AE4 /* Pods_SwiftAFHelperUITests.framework */; };
+		9D31B838227282F14DDDCF3A /* Pods_SwiftAFHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00496491FD011A62F2657602 /* Pods_SwiftAFHelper.framework */; };
 		C9F3E7531D6D74030022FBCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3E7521D6D74030022FBCE /* AppDelegate.swift */; };
 		C9F3E7551D6D74030022FBCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3E7541D6D74030022FBCE /* ViewController.swift */; };
 		C9F3E7581D6D74030022FBCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F3E7561D6D74030022FBCE /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		C9F3E75D1D6D74030022FBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F3E75B1D6D74030022FBCE /* LaunchScreen.storyboard */; };
 		C9F3E7681D6D74030022FBCE /* SwiftAFHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3E7671D6D74030022FBCE /* SwiftAFHelperTests.swift */; };
 		C9F3E7731D6D74030022FBCE /* SwiftAFHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3E7721D6D74030022FBCE /* SwiftAFHelperUITests.swift */; };
+		C9F3E7811D6D75B20022FBCE /* AFNetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3E7801D6D75B20022FBCE /* AFNetworkingHelper.swift */; };
+		FAA165D5402D75594CCC72A3 /* Pods_SwiftAFHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBBDE2E95F950AF6DE79676 /* Pods_SwiftAFHelperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00496491FD011A62F2657602 /* Pods_SwiftAFHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAFHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07677031CF08FAF6D88BBA8C /* Pods-SwiftAFHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAFHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAFHelperTests/Pods-SwiftAFHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B79809455CEDD1BF11FD9C7 /* Pods-SwiftAFHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAFHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAFHelperUITests/Pods-SwiftAFHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98A397A45518323236DD3AE4 /* Pods_SwiftAFHelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAFHelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBBDE2E95F950AF6DE79676 /* Pods_SwiftAFHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAFHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72B003B5D1F3C3B087CD683 /* Pods-SwiftAFHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAFHelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAFHelperUITests/Pods-SwiftAFHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9F3E74F1D6D74030022FBCE /* SwiftAFHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAFHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F3E7521D6D74030022FBCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F3E7541D6D74030022FBCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		C9F3E76E1D6D74030022FBCE /* SwiftAFHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAFHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F3E7721D6D74030022FBCE /* SwiftAFHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAFHelperUITests.swift; sourceTree = "<group>"; };
 		C9F3E7741D6D74030022FBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F3E7801D6D75B20022FBCE /* AFNetworkingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNetworkingHelper.swift; sourceTree = "<group>"; };
+		D1F24F80FEB0CB3E7E8C3CA8 /* Pods-SwiftAFHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAFHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAFHelperTests/Pods-SwiftAFHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE5437CCDA3C13891CA41160 /* Pods-SwiftAFHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAFHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAFHelper/Pods-SwiftAFHelper.release.xcconfig"; sourceTree = "<group>"; };
+		F0CDB24983F74C8D16F501A5 /* Pods-SwiftAFHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAFHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAFHelper/Pods-SwiftAFHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D31B838227282F14DDDCF3A /* Pods_SwiftAFHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA165D5402D75594CCC72A3 /* Pods_SwiftAFHelperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E2C84EF76FA226EE923574 /* Pods_SwiftAFHelperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1716EE417B47413D749F4990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00496491FD011A62F2657602 /* Pods_SwiftAFHelper.framework */,
+				9CBBDE2E95F950AF6DE79676 /* Pods_SwiftAFHelperTests.framework */,
+				98A397A45518323236DD3AE4 /* Pods_SwiftAFHelperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FEFBEEE292F3BC3CC1C081 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0CDB24983F74C8D16F501A5 /* Pods-SwiftAFHelper.debug.xcconfig */,
+				EE5437CCDA3C13891CA41160 /* Pods-SwiftAFHelper.release.xcconfig */,
+				07677031CF08FAF6D88BBA8C /* Pods-SwiftAFHelperTests.debug.xcconfig */,
+				D1F24F80FEB0CB3E7E8C3CA8 /* Pods-SwiftAFHelperTests.release.xcconfig */,
+				A72B003B5D1F3C3B087CD683 /* Pods-SwiftAFHelperUITests.debug.xcconfig */,
+				5B79809455CEDD1BF11FD9C7 /* Pods-SwiftAFHelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C9F3E7461D6D74030022FBCE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				C9F3E7661D6D74030022FBCE /* SwiftAFHelperTests */,
 				C9F3E7711D6D74030022FBCE /* SwiftAFHelperUITests */,
 				C9F3E7501D6D74030022FBCE /* Products */,
+				C4FEFBEEE292F3BC3CC1C081 /* Pods */,
+				1716EE417B47413D749F4990 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 			children = (
 				C9F3E7521D6D74030022FBCE /* AppDelegate.swift */,
 				C9F3E7541D6D74030022FBCE /* ViewController.swift */,
+				C9F3E7801D6D75B20022FBCE /* AFNetworkingHelper.swift */,
 				C9F3E7561D6D74030022FBCE /* Main.storyboard */,
 				C9F3E7591D6D74030022FBCE /* Assets.xcassets */,
 				C9F3E75B1D6D74030022FBCE /* LaunchScreen.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F3E7771D6D74030022FBCE /* Build configuration list for PBXNativeTarget "SwiftAFHelper" */;
 			buildPhases = (
+				5F44CFEF1157AF306E0DFC7A /* [CP] Check Pods Manifest.lock */,
 				C9F3E74B1D6D74030022FBCE /* Sources */,
 				C9F3E74C1D6D74030022FBCE /* Frameworks */,
 				C9F3E74D1D6D74030022FBCE /* Resources */,
+				2E743FD846B6BFD7521C5EB4 /* [CP] Embed Pods Frameworks */,
+				2E9C293893E3E28125862701 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F3E77A1D6D74030022FBCE /* Build configuration list for PBXNativeTarget "SwiftAFHelperTests" */;
 			buildPhases = (
+				E3C6C07DF0B7AD6D8CD3738B /* [CP] Check Pods Manifest.lock */,
 				C9F3E75F1D6D74030022FBCE /* Sources */,
 				C9F3E7601D6D74030022FBCE /* Frameworks */,
 				C9F3E7611D6D74030022FBCE /* Resources */,
+				3F123896D91C1F01624F4893 /* [CP] Embed Pods Frameworks */,
+				8E82D01444F8F2871E7A2626 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F3E77D1D6D74030022FBCE /* Build configuration list for PBXNativeTarget "SwiftAFHelperUITests" */;
 			buildPhases = (
+				20201BB5107CF7383A0FECB7 /* [CP] Check Pods Manifest.lock */,
 				C9F3E76A1D6D74030022FBCE /* Sources */,
 				C9F3E76B1D6D74030022FBCE /* Frameworks */,
 				C9F3E76C1D6D74030022FBCE /* Resources */,
+				C10883512396B1258A3E9C74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +244,16 @@
 				TargetAttributes = {
 					C9F3E74E1D6D74030022FBCE = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					C9F3E7621D6D74030022FBCE = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = C9F3E74E1D6D74030022FBCE;
 					};
 					C9F3E76D1D6D74030022FBCE = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = C9F3E74E1D6D74030022FBCE;
 					};
 				};
@@ -251,11 +305,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20201BB5107CF7383A0FECB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E743FD846B6BFD7521C5EB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAFHelper/Pods-SwiftAFHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E9C293893E3E28125862701 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAFHelper/Pods-SwiftAFHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F123896D91C1F01624F4893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAFHelperTests/Pods-SwiftAFHelperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F44CFEF1157AF306E0DFC7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E82D01444F8F2871E7A2626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAFHelperTests/Pods-SwiftAFHelperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10883512396B1258A3E9C74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAFHelperUITests/Pods-SwiftAFHelperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C6C07DF0B7AD6D8CD3738B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9F3E74B1D6D74030022FBCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F3E7811D6D75B20022FBCE /* AFNetworkingHelper.swift in Sources */,
 				C9F3E7551D6D74030022FBCE /* ViewController.swift in Sources */,
 				C9F3E7531D6D74030022FBCE /* AppDelegate.swift in Sources */,
 			);
@@ -399,68 +577,80 @@
 		};
 		C9F3E7781D6D74030022FBCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CDB24983F74C8D16F501A5 /* Pods-SwiftAFHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftAFHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongeshi.SwiftAFHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C9F3E7791D6D74030022FBCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5437CCDA3C13891CA41160 /* Pods-SwiftAFHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftAFHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongeshi.SwiftAFHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		C9F3E77B1D6D74030022FBCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07677031CF08FAF6D88BBA8C /* Pods-SwiftAFHelperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftAFHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongeshi.SwiftAFHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAFHelper.app/SwiftAFHelper";
 			};
 			name = Debug;
 		};
 		C9F3E77C1D6D74030022FBCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F24F80FEB0CB3E7E8C3CA8 /* Pods-SwiftAFHelperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftAFHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongeshi.SwiftAFHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAFHelper.app/SwiftAFHelper";
 			};
 			name = Release;
 		};
 		C9F3E77E1D6D74030022FBCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72B003B5D1F3C3B087CD683 /* Pods-SwiftAFHelperUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftAFHelperUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongeshi.SwiftAFHelperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftAFHelper;
 			};
 			name = Debug;
 		};
 		C9F3E77F1D6D74030022FBCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B79809455CEDD1BF11FD9C7 /* Pods-SwiftAFHelperUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftAFHelperUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongeshi.SwiftAFHelperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftAFHelper;
 			};
 			name = Release;
@@ -484,6 +674,7 @@
 				C9F3E7791D6D74030022FBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F3E77A1D6D74030022FBCE /* Build configuration list for PBXNativeTarget "SwiftAFHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +683,7 @@
 				C9F3E77C1D6D74030022FBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F3E77D1D6D74030022FBCE /* Build configuration list for PBXNativeTarget "SwiftAFHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +692,7 @@
 				C9F3E77F1D6D74030022FBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

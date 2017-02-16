@@ -1,0 +1,6 @@
+framework module Pods_SwiftAFHelper {
+  umbrella header "Pods-SwiftAFHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
